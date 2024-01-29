@@ -72,8 +72,6 @@ The `SystemWhole` class acts as the orchestrator of the show, obstaining the JSO
 
 The `PartState` class acts as a cornerstone of `SystemWhole`'s awareness of dynamics of its parts' structure and behavior, encapsulating them as attributes of objects within the framed environment. This class symbolizes the state or condition of a part, or an aspect, of a `Machine`, capturing a single property and its corresponding value, thereby contributing to the `Machine`'s identity.
 
-`PartState` serves as a fundamental abstraction within SystemWhole, underpinning the larger structure of a `Machine`. Each `Machine` is a composition of various `PartState` instances, each piece contributing to defining the `Machine`'s identity.
-
 For instance, analyzing a `Machine` for humanoid traits, the collective `PartState` instances might reveal a "physical" body type, an "anthropomorphic" face type, and a "biotypical" reverie, enabling the system to discern the `Machine`'s nature.
 
 #### Fields
