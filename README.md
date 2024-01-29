@@ -18,7 +18,7 @@ Your tasks include:
 3. Identifying Machines with humanoid traits.
 4. Identifying singularities where there's a discrepancy between a Machine's self-identified humanoid status and the system's analysis.
 
-## MK0: Don't implicitly or explicitly import anything not already given to you by Java.
+## MK0: Don't implicitly or explicitly import anything not already given to you by Java. This is an individual assignment.
 
 The files needed are accessible here:
 1. [`SystemWhole`](https://github.com/luminaxster/CS211-spring-2024-P1/raw/main/src/SystemWhole.java)
@@ -127,10 +127,10 @@ Projects will be evaluated on:
 - **Soundness**: Accurate parsing, object creation, and humanoid/singularity identification. **All methods carry equal weight, yet related methods if not implemented will cause a negative chain effect in your grade.**
 - **Code Quality**: Organization, readability, adherence to the principles presented in class, and object-oriented design within this project.
 - **Documentation**: Clear comments explaining code sections and decision-making processes. **Required** on method and control blocks.
-### MK1: Don't implicitly or explicitly import anything not already given to you by Java.
+### MK1: Don't implicitly or explicitly import anything not already given to you by Java. This is an individual assignment.
 
 ## Submission Guidelines
-### MK2: Don't implicitly or explicitly import anything not already given to you by Java.
+### MK2: Don't implicitly or explicitly import anything not already given to you by Java. This is an individual assignment.
 Upload to GradeScope's P1 assigment your Java files for `SystemWhole.java`, `Machine.java`, and `ShapeAnalyzer.java` (No need for `PartState.java`, you must not modify this file), ensuring your code is well-tested and documented.
 
 In the event that you're not able to complete all the methods in time, submit what you have, **MAKE SURE YOUR CODE COMPILES**. If your code compile and can't easily be fixed, the method causing the problem will likely have a lot of its points docked off. 
