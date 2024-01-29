@@ -1,4 +1,7 @@
 # P1: System(Whole)
+## Change Log
+
+None yet.
 
 ## Introduction
 Welcome to the SystemWhole project, an assignment where you'll explore  phenomena through machinery. You're tasked with creating a Java program that processes JSON-like strings, each representing an entity or "Machine" with unique attributes. Your goal is to parse these strings, instantiate Machine objects, and analyze them to identify humanoid features and uncover potential singularities.
@@ -55,7 +58,7 @@ The `SystemWhole` class acts as the orchestrator of the show, obstaining the JSO
 - `public static void main(String[] args)`: **[Program Start]** Implements the algorithm of the Tasks's section.
    **An implementation has been shared with you as context, it will not be used for grading.**
 - `public static void emergencesFromPhenomena(String[] emergences)`: Saves the provided JSON strings into the `emergences` field.
-- `public static void reifyFrameOfReference())`: Delegates parsing of each string in `emergences` to create `Machine` objects using `ShapeAnalyzer`, storing them in `parts`.
+- `public static void reifyFrameOfReference()`: Delegates parsing of each string in `emergences` to create `Machine` objects using `ShapeAnalyzer`, storing them in `parts`.
 -  `public static boolean isHumanoid(Object[] machineProperties)`: Checks a machine's by iterating through its properties, which are encapsulated as `PartState`, assess three distinct attributes: the bodyType, faceType, and reverie of the `Machine`. For a machine to be classified as humanoid, it must satisfy the following conditions:
 
     1. The bodyType must be identified as "physical".
