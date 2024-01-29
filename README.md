@@ -1,4 +1,4 @@
-#P1: System(Whole)
+# P1: System(Whole)
 
 ## Introduction
 Welcome to the SystemWhole project, an assignment where you'll explore  phenomena through machinery. You're tasked with creating a Java program that processes JSON-like strings, each representing an entity or "Machine" with unique attributes. Your goal is to parse these strings, instantiate Machine objects, and analyze them to identify humanoid features and uncover potential singularities.
