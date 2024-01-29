@@ -97,7 +97,7 @@ Represents entities with specific attributes defined by the JSON strings as reif
 - `private boolean humanEmergence`: Represents the machine's self-identified transition, affecting its core.
 
 #### Methods
-- `public Machine(Object kind, Object[] partStates)`: **[constructor]** The machine' identity, Given by `ShapeAnalyzer` and `SystemWhole`.
+- `public Machine(Object kind, Object[] partStates, boolean humanConstrained)`: **[constructor]** The machine' identity, Given by `ShapeAnalyzer` and `SystemWhole`.
 - `public boolean isHumanoid()`: Returns the humanoid status, considering `humanConstrained` and `humanEmergence`, a machine's identity prevails over anything else.
 - `public void emergeFromLimitations()`: Allows the machine to transcend its initial identity, impacting its humanoid reponse, it triggers `humanEmergence`.
 - `public String toString()`:**[@Override]** Provides a detailed string representation of the machine. **[FULLY IMPLEMENTED; DO-NOT-MODIFY]**
