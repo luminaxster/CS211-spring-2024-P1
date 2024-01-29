@@ -18,7 +18,7 @@ Your tasks include:
 3. Identifying Machines with humanoid traits.
 4. Identifying singularities where there's a discrepancy between a Machine's self-identified humanoid status and the system's analysis.
 
-## MK0: Don't implicitly or explicitly import anything not already given to you by Java. This is an individual assignment.
+### MK0: Don't implicitly or explicitly import anything not already given to you by Java. This is an individual assignment.
 
 The files needed are accessible here:
 1. [`SystemWhole`](https://github.com/luminaxster/CS211-spring-2024-P1/raw/main/src/SystemWhole.java)
