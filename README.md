@@ -19,10 +19,10 @@ Your tasks include:
 4. Identifying singularities where there's a discrepancy between a Machine's self-identified humanoid status and the system's analysis.
 
 The files needed are accessible here:
-1. [`SystemWhole`](https://raw.githubusercontent.com/luminaxster/CS211-spring-2024-P1/blob/main/src/SystemWhole.java)
-2. [`PartState`](https://raw.githubusercontent.com/luminaxster/CS211-spring-2024-P1/blob/main/src/PartState.java)
-3. [`Machine`](https://raw.githubusercontent.com/luminaxster/CS211-spring-2024-P1/blob/main/src/Machine.java)
-4. [`ShapeAnalyzer`](https://raw.githubusercontent.com/luminaxster/CS211-spring-2024-P1/blob/main/src/ShapeAnalyzer.java)
+1. [`SystemWhole`](https://github.com/luminaxster/CS211-spring-2024-P1/raw/main/src/SystemWhole.java)
+2. [`PartState`](https://github.com/luminaxster/CS211-spring-2024-P1/raw/main/src/PartState.java)
+3. [`Machine`](https://github.com/luminaxster/CS211-spring-2024-P1/raw/main/src/Machine.java)
+4. [`ShapeAnalyzer`](https://github.com/luminaxster/CS211-spring-2024-P1/raw/main/src/ShapeAnalyzer.java)
 
 ## Tasks
 
