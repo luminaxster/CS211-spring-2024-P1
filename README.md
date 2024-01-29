@@ -129,6 +129,14 @@ Projects will be evaluated on:
 
 ## Submission Guidelines
 ### MK2: Don't implicitly or explicitly import anything not already given to you by Java. This is an individual assignment.
+### DO NOT FORGET TO REMOVE IMPORTS GIVEN TO HELP YOU, AND WE WILL NOT GRADE ANYTHING IN  SystemWhole.main()
+```java
+// DO NOT INCLUDE THIS IMPORT WHEN SENT FOR GRADING, THIS IS HERE TO HELP YOU DEBUG THE PROGRAM STATE
+import java.util.Arrays;
+
+// YOU CAN SAFELY REMOVE Arrays calls in SystemWhole.main()
+public class SystemWhole {public static void main(String[] args){/* WILL NOT BE GRADED */}}
+```
 Upload to GradeScope's P1 assigment your Java files for `SystemWhole.java`, `Machine.java`, and `ShapeAnalyzer.java` (No need for `PartState.java`, you must not modify this file), ensuring your code is well-tested and documented.
 
 In the event that you're not able to complete all the methods in time, submit what you have, **MAKE SURE YOUR CODE COMPILES**. If your code compile and can't easily be fixed, the method causing the problem will likely have a lot of its points docked off. 
