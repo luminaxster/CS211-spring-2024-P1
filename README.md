@@ -43,7 +43,7 @@ Create a method to track singularities, where a `Machine`'s self-identified huma
 ## Implementation Details
 This is the outline the core components: `SystemWhole`, `Machine`, `PartState` and `ShapeAnalyzer` classes.
 
-### public class SystemWhole
+### 1. public class SystemWhole
 
 The `SystemWhole` class acts as the orchestrator of the show, obstaining the JSON-like strings and subsequent analysis.
 
@@ -68,7 +68,7 @@ The `SystemWhole` class acts as the orchestrator of the show, obstaining the JSO
 - `public static Machine[] trackSingularityMachines()`: Identifies humanoid machines and singularities within `parts`.
 
 
-### public class PartState [FULLY IMPLEMENTED; DO-NOT-MODIFY]
+### 2. public class PartState [FULLY IMPLEMENTED; DO-NOT-MODIFY]
 
 The `PartState` class acts as a cornerstone of `SystemWhole`'s awareness of dynamics of its parts' structure and behavior, encapsulating them as attributes of objects within the framed environment. This class symbolizes the state or condition of a part, or an aspect, of a `Machine`, capturing a single property and its corresponding value, thereby contributing to the `Machine`'s identity.
 
@@ -85,7 +85,7 @@ For instance, analyzing a `Machine` for humanoid traits, the collective `PartSta
 
 - `public String toString()`: **[@Override]** It offers a textual depiction of the `PartState`, combining both the property and its value in an easily understandable format. This functionality is invaluable for debugging or visualizing a `Machine` part's state.
 
-### public class Machine
+### 3. public class Machine
 
 Represents entities with specific attributes defined by the JSON strings as reified by `ShapeAnalyzer`. Should include `kind`, `properties` array, `humanConstrained` (`SystemWhole`'s humanoid assessment), and `humanEmergence` (Machine's self-identified status).
 
@@ -103,7 +103,7 @@ Represents entities with specific attributes defined by the JSON strings as reif
 - `public String toString()`:**[@Override]** Provides a detailed string representation of the machine. **[FULLY IMPLEMENTED; DO-NOT-MODIFY]**
 - `public static String propertiesToString(Object[] machineProperties)`: creates a string by iterating machineProperties in this format: `[PartState{bodyType=physical}, PartState{faceType=anthropomorphic}, ...]`. It is used by `toString()`.
 
-### public class ShapeAnalyzer
+### 4. public class ShapeAnalyzer
 
 A utility class for parsing JSON-like strings and intantiating `Machine` objects, including methods to extract `kind` and `properties`, and infer their data types.
 
