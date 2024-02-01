@@ -1,7 +1,7 @@
 # P1: System(Whole)
 ## Change Log
 
-None yet.
+02/01/2024: `Machine`s `public Object[] getProperties()` description added.
 
 ## Introduction
 Welcome to the SystemWhole project, an assignment where you'll explore  phenomena through machinery. You're tasked with creating a Java program that processes JSON-like strings, each representing an entity or "Machine" with unique attributes. Your goal is to parse these strings, instantiate Machine objects, and analyze them to identify humanoid features and uncover potential singularities.
@@ -101,6 +101,7 @@ Represents entities with specific attributes defined by the JSON strings as reif
 
 #### Methods
 - `public Machine(Object kind, Object[] partStates, boolean humanConstrained)`: **[constructor]** The machine' identity, Given by `ShapeAnalyzer` and `SystemWhole`.
+- `public Object[] getProperties()`: returns the `properties` of a machine.
 - `public boolean isHumanoid()`: Returns the humanoid status, considering `humanConstrained` and `humanEmergence`, a machine's identity prevails over anything else.
 - `public void emergeFromLimitations()`: Allows the machine to transcend its initial identity, impacting its humanoid reponse, it triggers `humanEmergence`.
 - `public String toString()`:**[@Override]** Provides a detailed string representation of the machine. **[FULLY IMPLEMENTED; DO-NOT-MODIFY]**
