@@ -25,12 +25,19 @@ public class SystemWhole {
         System.out.println("Singularities: " + Arrays.deepToString(singularities));
     }
 
+   //Visibility modifiers: public vs private
     public static void emergencesFromPhenomena(String[] emergences) {
-        throw new UnsupportedOperationException("Not implemented");
+        //Class and Object State: static vs this
+        SystemWhole.emergences = emergences;
     }
 
-    public static void reifyFrameOfReference() {
-        throw new UnsupportedOperationException("Not implemented");
+   public static void reifyFrameOfReference() {
+        SystemWhole.parts= new Machine[emergences.length];
+        int i = 0; // not elegant =(
+        for (String emergence:emergences){
+            SystemWhole.parts[i++] = ShapeAnalyzer.analyze(emergence); 
+        }
+        
     }
 
     public static boolean isHumanoid(Object[] machineProperties) {
