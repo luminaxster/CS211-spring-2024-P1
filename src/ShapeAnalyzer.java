@@ -2,7 +2,8 @@ public class ShapeAnalyzer {
     private static final Object EMPTY_PROPERTY = new Object();
 
     public static Machine analyze(String json) {
-        throw new UnsupportedOperationException("Not implemented");
+        // try this as you start exploring the project: use null for refrence types, and data for primitives.
+       return null;
     }
 
     public static String[][] parseEntries(String flatJson) {
