@@ -8,6 +8,7 @@
     - `Machine`'s `public Object[] getProperties()` description added.
       
 ## Prelude
+We hope this video helps students of all sections. Please add follow-ups on Piazza. 
 ### Intro video (P1 specifics starts at 45min)
 [Intro Video](https://gmu.zoom.us/rec/share/lnxgnK2e9lurgkBSN2S6w1LLpmPgfFW3NDi9SHDWove5hM5MHA0UIdnOOZA-vrk.1gaJHg0s2HAAz5cq) [Passcode in Piazza](https://piazza.com/class/lrat3pcepfg49d/post/163)
 ### UML-esque drawing of classes
