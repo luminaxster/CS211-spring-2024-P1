@@ -7,7 +7,8 @@
     - Modified Java files to match video.
     - `Machine`'s `public Object[] getProperties()` description added.
       
-## [Intro Video](https://gmu.zoom.us/rec/share/lnxgnK2e9lurgkBSN2S6w1LLpmPgfFW3NDi9SHDWove5hM5MHA0UIdnOOZA-vrk.1gaJHg0s2HAAz5cq) [Passcode in Piazza](https://piazza.com/class/lrat3pcepfg49d/post/163)
+## Intro video (P1 specifics starts at 45min)
+[Intro Video](https://gmu.zoom.us/rec/share/lnxgnK2e9lurgkBSN2S6w1LLpmPgfFW3NDi9SHDWove5hM5MHA0UIdnOOZA-vrk.1gaJHg0s2HAAz5cq) [Passcode in Piazza](https://piazza.com/class/lrat3pcepfg49d/post/163)
 ## UML-esque drawing of classes
 ![uml](https://raw.githubusercontent.com/luminaxster/CS211-spring-2024-P1/main/res/uml-sketch.jpeg)
 
@@ -31,7 +32,8 @@ Your tasks include:
 
 ### MK0: Don't implicitly or explicitly import anything not already given to you by Java. This is an individual assignment.
 
-The files needed are accessible here:
+## SOURCE CODE
+The `files` needed are accessible here:
 1. [`SystemWhole`](https://github.com/luminaxster/CS211-spring-2024-P1/raw/main/src/SystemWhole.java)
 2. [`PartState`](https://github.com/luminaxster/CS211-spring-2024-P1/raw/main/src/PartState.java)
 3. [`Machine`](https://github.com/luminaxster/CS211-spring-2024-P1/raw/main/src/Machine.java)
