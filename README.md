@@ -9,7 +9,7 @@
       
 ## [Intro Video](https://gmu.zoom.us/rec/share/lnxgnK2e9lurgkBSN2S6w1LLpmPgfFW3NDi9SHDWove5hM5MHA0UIdnOOZA-vrk.1gaJHg0s2HAAz5cq) [Passcode in Piazza](https://piazza.com/class/lrat3pcepfg49d/post/163)
 ## UML-esque drawing of classes
-![uml](https://github.com/luminaxster/CS211-spring-2024-P1/blob/main/res/uml-sketch.jpeg)
+![uml]([https://github.com/luminaxster/CS211-spring-2024-P1/blob/main/res/uml-sketch.jpeg](https://raw.githubusercontent.com/luminaxster/CS211-spring-2024-P1/main/res/uml-sketch.jpeg)
 
 ## Introduction
 Welcome to the SystemWhole project, an assignment where you'll explore  phenomena through machinery. You're tasked with creating a Java program that processes JSON-like strings, each representing an entity or "Machine" with unique attributes. Your goal is to parse these strings, instantiate Machine objects, and analyze them to identify humanoid features and uncover potential singularities.
