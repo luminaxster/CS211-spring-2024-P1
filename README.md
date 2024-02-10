@@ -155,7 +155,7 @@ public class SystemWhole {public static void main(String[] args){/* WILL NOT BE 
 ```
 Upload to GradeScope's P1 assigment your Java files for `SystemWhole.java`, `Machine.java`, and `ShapeAnalyzer.java` (No need for `PartState.java`, you must not modify this file), ensuring your code is well-tested and documented.
 
-In the event that you're not able to complete all the methods in time, submit what you have, **MAKE SURE YOUR CODE COMPILES**. If your code compile and can't easily be fixed, the method causing the problem will likely have a lot of its points docked off. 
+In the event that you're not able to complete all the methods in time, submit what you have, **MAKE SURE YOUR CODE COMPILES**. If your code does not compile, each class causing problems will likely cause you to lose a lot of points. 
 
 When you submit on Gradescope, don't think the tests checking your code before the deadline are a comprehensive check of your code; they're there tell you if your code compiles, has any privacy/scope problems, and passes surface-level testing.
 
